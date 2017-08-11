@@ -94,7 +94,7 @@ object Dependencies {
   def addSbtLmCore(p: Project): Project =
     addSbtModule(p, sbtLmPath, "lmCore", libraryManagementCore)
   def addSbtLmImpl(p: Project): Project =
-    addSbtModule(p, sbtLmPath, "lmImpl", libraryManagementIvy)
+    addSbtModule(p, sbtLmPath, "lmIvy", libraryManagementIvy)
   def addSbtLmIvyTest(p: Project): Project =
     addSbtModule(p, sbtLmPath, "lmIvy", libraryManagementIvy, Some(Test))
 
